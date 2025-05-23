@@ -1,63 +1,26 @@
-body {
-    background-color: #f8f1e3; 
-}
-h1 {
-    color: brown;
-    font-family: Arial, sans-serif;
-}
-nav {
-    background-color: #2e2e2e;  /* Color de fondo del menú */
-    padding: 15px 0;
-    text-align: center;
+.PresentacionPage {
+    background-image: url("./Imagenes/Fondo.jpg");
+    display: flex;
+    justify-content: space-around;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.ImgHeader {
+    display: none;
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 20px;
-}
+@media screen and (max-width: 768px) {
+    .logo {
+        display: none;
+    }
 
-nav ul li a {
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-    transition: color 0.3s ease;
-}
-
-nav ul li a:hover {
-    color: #ffcc66; /* Color al pasar el mouse */
-}
-@media (max-width: 768px) {
-    nav ul {
+    .ImgHeader {
         display: flex;
+        width: 60px;
+    }
+
+    .PresentacionPage {
+        display: flex;
+        justify-content: space-around;
         flex-direction: column;
-        align-items: center;
     }
-    nav ul li {
-        margin: 10px 0;
-    }
-}
-nav {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-body {
-    padding-top: 60px; /* Para evitar que el contenido quede debajo del menú */
-}
-.producto {
-    transition: transform 0.3s ease;
-}
-.producto:hover {
-    transform: scale(1.05);
-}
-.dark-mode {
-    background-color: #222;
-    color: white;
 }
