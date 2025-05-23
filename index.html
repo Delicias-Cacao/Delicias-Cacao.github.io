@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicias Cacao</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+
+<body style="background-color: bisque">
+    <header
+        class="bg-marron-cacao text-dorado-suave py-4 flex justify-between items-center shadow-md sticky top-0 z-10 rounded-md"
+        style="background-color: #5D4037;">
+        <div class="logo text-2xl font-semibold ml-4" style="color: white;">Delicias Cacao</div>
+        <nav class="mr-4">
+            <ul class="flex space-x-4">
+                <li><a href="#inicio" class="hover:text-beige-crema transition duration-300"
+                        style="color: white;">Inicio</a></li>
+                <li><a href="#productos" class="hover:text-beige-crema transition duration-300"
+                        style="color: white;">Productos</a></li>
+                <li><a href="#historia" class="hover:text-beige-crema transition duration-300"
+                        style="color: white;">Historia</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio"
+        class="hero-section text-marron-cacao text-center px-4 rounded-md flex items-center justify-center"
+        style="background-image: url(./Imagenes/Fondo.jpg) ; display: flex; justify-content: space-around;">
+        <div class="logo">
+            <img src="./Imagenes/Logo.png" alt="" width="500px">
+        </div>
+        <div class="hero-content">
+            <h1 class="text-5xl font-bold mb-6">Bienvenidos a Delicias Cacao, donde el cacao cuenta su propia historia.
+            </h1>
+            <p class="text-xl mb-10">Delicias Cacao: auténtico sabor venezolano, elaborado con pasión y tradición.</p>
+
+        </div>
+    </section>
+
+    <section id="productos" class="bg-marron-cacao text-dorado-suave py-20 px-4 text-center rounded-md">
+        <h2 class="text-3xl font-semibold mb-8">Nuestros Productos</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <div style="background-color: tan;"
+                class="bg-beige-crema rounded-lg shadow-md p-6 transition duration-300 hover:shadow-lg hover:scale-105 flex flex-col justify-between">
+                <div>
+                    <h3 class="text-xl font-semibold mb-4 text-marron-cacao">Galletas de Vainilla con Chispas de
+                        Chocolate</h3>
+                    <p class="text-md mb-4 ">Delicada vainilla con intensas chispas de chocolate. <span
+                            class="font-semibold">Próximamente</span></p>
+                </div>
+                <img src="./Imagenes/Galleta-vainilla.jpg" alt="Galletas de Vainilla con Chispas de Chocolate"
+                    class="rounded-md mt-4" style="height: 250px;">
+                <p class="text-sm mt-2 ">Precio: 40 Bs (Paquete de 1 unidad)</p>
+            </div>
+            <div style="background-color: tan;"
+                class="bg-beige-crema rounded-lg shadow-md p-6 transition duration-300 hover:shadow-lg hover:scale-105 flex flex-col justify-between">
+                <div>
+                    <h3 class="text-xl font-semibold mb-4 text-marron-cacao">Galletas de Cacao con Chispas de Chocolate
+                    </h3>
+                    <p class="text-md mb-4 ">El sabor profundo del cacao con explosiones de chocolate.</p>
+                </div>
+                <img src="./Imagenes/Galleta-cacao.jpg" alt="Galletas de Cacao con Chispas de Chocolate"
+                    class="rounded-md mt-4" style="height: 250px;">
+                <p class="text-sm mt-2 ">Precio: 40 Bs (Paquete de 1 unidad) / 70 Bs (Paquete de 2 unidades)</p>
+            </div>
+            <div style="background-color: tan;"
+                class="bg-beige-crema rounded-lg shadow-md p-6 transition duration-300 hover:shadow-lg hover:scale-105 flex flex-col justify-between">
+                <div>
+                    <h3 class="text-xl font-semibold mb-4 text-marron-cacao">Galletas de Cacao con Nueces</h3>
+                    <p class="text-md mb-4 ">La combinación perfecta de cacao y crujientes nueces. <span
+                            class="font-semibold">Próximamente</span></p>
+                </div>
+                <img src="./Imagenes/Galletas-avena-galletas-cacao.avif" alt="Galletas de Cacao con Nueces"
+                    class="rounded-md mt-4" style="height: 250px;">
+                <p class="text-sm mt-2  ">Precio: 40 Bs (Paquete de 1 unidad)</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="historia" class="bg-beige-crema text-marron-cacao py-20 px-4 text-center rounded-md">
+        <h2 class="text-3xl font-semibold mb-8">Nuestra Historia</h2>
+        <p class="text-lg  max-w-3xl mx-auto leading-relaxed">
+            Desde tiempos ancestrales, el cacao ha sido un tesoro en la tierra venezolana, un fruto noble que ha sido
+            parte de nuestra identidad y cultura. Con el deseo de honrar esta tradición y llevar su magia a cada rincón,
+            nació Delicias Cacao, una marca que fusiona la artesanía con la pasión por el sabor.
+        </p>
+        <br>
+        <p class="text-lg  max-w-3xl mx-auto leading-relaxed"> Todo comenzó con una idea sencilla pero poderosa:
+            rescatar el verdadero espíritu del cacao venezolano, aquel que despierta los sentidos y cuenta historias en
+            cada bocado. Inspirados por el legado de los productores locales y el amor por lo auténtico, emprendimos el
+            camino de crear productos que no solo deleitan, sino que transmiten la historia de nuestra tierra. </p>
+        <div class="mt-8 flex justify-center">
+            <img src="./Imagenes/Nuestra-historia.jpg" alt="Historia de Delicias Cacao" class="rounded-md shadow-lg"
+                style="width: 700px;">
+        </div>
+    </section>
+
+    <!--<section id="contacto" class="bg-marron-cacao text-dorado-suave py-20 px-4 text-center rounded-md">
+        <h2 class="text-3xl font-semibold mb-8">Contáctanos</h2>
+        <p class="text-lg mb-4">¡Queremos saber de ti!</p>
+        <p class="text-lg mb-8">Puedes encontrarnos en la feria escolar, o contactarnos a través de nuestras redes sociales:</p>
+        <div class="flex justify-center space-x-6">
+            <a href="#" class="text-lg hover:text-beige-crema transition duration-300 flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                Facebook
+            </a>
+            <a href="#" class="text-lg hover:text-beige-crema transition duration-300 flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg>
+                Instagram
+            </a>
+        </div>
+    </section>-->
+
+    <footer class="text-beige-crema text-center py-4 rounded-md" style="background-color: white;">
+        <p>© 2025 Delicias Cacao. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
