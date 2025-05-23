@@ -19,18 +19,21 @@
 
 <body style="background-color: rgb(255, 238, 216)">
     <header
-        class="bg-marron-cacao text-dorado-suave py-4 flex justify-between items-center shadow-md sticky top-0 z-10 rounded-md"
+        
+        class="bg-marron-cacao text-dorado-suave py-4 flex justify-between items-center shadow-md sticky top-0 z-10 "
         style="background-color: #5D4037;">
         <div class="logo text-2xl font-semibold ml-4" style="color: white;">Delicias Cacao</div>
         <div class="ImgHeader"><img src="./Imagenes/ImgHeader.png" alt=""></div>
-        <nav class="mr-4">
+        <nav class="mr-4" >
             <ul class="flex space-x-4">
                 <li><a href="#inicio" class="hover:text-beige-crema transition duration-300"
                         style="color: white;">Inicio</a></li>
                 <li><a href="#productos" class="hover:text-beige-crema transition duration-300"
                         style="color: white;">Productos</a></li>
-                        <li><a href="#beneficios" class="hover:text-beige-crema transition duration-300"
-                        style="color: white;">beneficios</a></li>
+                <li><a href="#recetas" class="hover:text-beige-crema transition duration-300"
+                        style="color: white;">Recetas</a></li>
+                <li><a href="#beneficios" class="hover:text-beige-crema transition duration-300"
+                        style="color: white;">Beneficios</a></li>
                 <li><a href="#historia" class="hover:text-beige-crema transition duration-300"
                         style="color: white;">Historia</a></li>
             </ul>
@@ -38,9 +41,9 @@
     </header>
 
     <section id="inicio"
-        class="hero-section text-marron-cacao text-center px-4 rounded-md flex items-center justify-center PresentacionPage">
+         class="hero-section text-marron-cacao text-center py-20 px-4 rounded-md flex items-center justify-center PresentacionPage">
         <div class="Logo">
-            <img src="./Imagenes/Logo.png" alt="" width="500px">
+            <img src="./Imagenes/Logo.png" alt="" width="500px" >
         </div>
         <div class="hero-content">
             <h1 class="text-5xl font-bold mb-6">Bienvenidos a Delicias Cacao, donde el cacao cuenta su propia historia.
@@ -90,18 +93,79 @@
         </div>
     </section>
 
+    <section id="recetas" class="bg-marron-cacao text-dorado-suave py-20 px-4 text-center rounded-md">
+        <h2 class="text-3xl font-semibold mb-8">Nuestras recetas</h2>
+         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <div style="background-color: tan;"
+                class="bg-beige-crema rounded-lg shadow-md p-6 transition duration-300 hover:shadow-lg hover:scale-105 flex flex-col justify-between">
+                <div>
+                    <h3 class="text-xl font-semibold mb-4 text-marron-cacao">Galletas de Vainilla con Chispas de
+                        Chocolate</h3>
+                    <p class="text-md mb-4 ">
+                        1 Taza Mantequilla Sin Sal <br><br>
+                        1 Taza Azúcar <br><br>
+                        2 Cucharadas Esencia De Vainilla <br><br>
+                        2 Huevos <br><br>
+                        1/2 Cucharadita Sal <br><br>
+                        2 1/2 Tazas Harina De Trigo <br><br>
+                        1/2 Cucharadita Polvo Para Hornear <br><br>
+                        50gr de chispas de chocolate
+                    </p>
+                </div>
+            </div>
+            <div style="background-color: tan;"
+                class="bg-beige-crema rounded-lg shadow-md p-6 transition duration-300 hover:shadow-lg hover:scale-105 flex flex-col justify-between">
+                <div>
+                    <h3 class="text-xl font-semibold mb-4 text-marron-cacao">Galletas de Cacao con Chispas de Chocolate
+                    </h3>
+                    <p class="text-md mb-4 ">
+                        1 Taza Mantequilla Sin Sal <br><br>
+                        1 Taza Azúcar <br><br>
+                        80gr de cacao <br><br>
+                        2 Huevos <br><br>
+                        1/2 Cucharadita Sal <br><br>
+                        2 1/2 Tazas Harina De Trigo <br><br>
+                        1/2 Cucharadita Polvo Para Hornear <br><br>
+                        50gr de chispas de chocolate.</p>
+                </div>
+            </div>
+            <div style="background-color: tan;"
+                class="bg-beige-crema rounded-lg shadow-md p-6 transition duration-300 hover:shadow-lg hover:scale-105 flex flex-col justify-between">
+                <div>
+                    <h3 class="text-xl font-semibold mb-4 text-marron-cacao">Galletas de Cacao con Nueces</h3>
+                    <p class="text-md mb-4 ">
+                        1 Taza Mantequilla Sin Sal <br><br>
+                        1 Taza Azúcar <br><br>
+                        80gr de cacao <br><br>
+                        2 Huevos <br><br>
+                        1/2 Cucharadita Sal <br><br>
+                        2 1/2 Tazas Harina De Trigo <br><br>
+                        1/2 Cucharadita Polvo Para Hornear <br><br>
+                        75gr de nueces.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
     <section id="beneficios" class="bg-beige-crema text-marron-cacao py-20 px-4 text-center rounded-md">
 <h2 class="text-3xl font-semibold mb-8">Conoces los beneficios de nuestras galletas</h2>
 <p class="text-lg  max-w-3xl mx-auto leading-relaxed">
 Galletas de Vainilla con chispas de Chocolate
  La vainilla tiene propiedades antioxidantes y puede contribuir a la sensación de bienestar.
  Su combinación con chocolate aporta energía y mejora el estado de ánimo, gracias a la presencia de triptófano, un precursor de la serotonina.
- Son ideales para quienes buscan un sabor suave y equilibrado con el toque indulgente del chocolate. <br>
- Galletas de Cacao con chispas de Chocolate
+ Son ideales para quienes buscan un sabor suave y equilibrado con el toque indulgente del chocolate. 
+</p>
+<br>
+<p class="text-lg  max-w-3xl mx-auto leading-relaxed">
+     Galletas de Cacao con chispas de Chocolate
  El cacao es rico en flavonoides, que tienen efectos antioxidantes y pueden mejorar la circulación sanguínea.
  Su alto contenido en magnesio favorece la función cerebral y la reducción del estrés.
- Perfectas para los amantes del chocolate intenso, ya que combinan el cacao con el dulzor de las gotas de chocolate. <br>
- Galletas de Cacao con Nueces
+ Perfectas para los amantes del chocolate intenso, ya que combinan el cacao con el dulzor de las gotas de chocolate.
+</p>
+<br>
+<p class="text-lg  max-w-3xl mx-auto leading-relaxed">
+     Galletas de Cacao con Nueces
  Las nueces aportan ácidos grasos saludables, favoreciendo la salud cardiovascular y el funcionamiento del cerebro.
  Su contenido en proteínas y fibra ayuda a mantener la saciedad por más tiempo.
  Una opción nutritiva y con una textura crujiente que realza el sabor del cacao.
@@ -142,8 +206,8 @@ Galletas de Vainilla con chispas de Chocolate
         </div>
     </section>-->
 
-    <footer class="text-beige-crema text-center py-4 rounded-md" style="background-color: white;">
-        <p>© 2025 Delicias Cacao. Todos los derechos reservados.</p>
+    <footer class="text-beige-crema text-center py-4 rounded-md" style="background-color: #5D4037;">
+        <p style="color: white;">© 2025 Delicias Cacao. Todos los derechos reservados.</p>
     </footer>
 
     <script>
